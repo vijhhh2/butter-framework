@@ -1,0 +1,22 @@
+{
+  "name": "video-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx --env-file=.env --watch src/index.ts",
+    "cluster-dev": "tsx --env-file=.env --watch src/cluster.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.6.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
